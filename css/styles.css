@@ -1,0 +1,155 @@
+body {
+  font-family: "Montserrat",sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-weight: 600;
+  font-family: "Montserrat-bold";
+}
+p{
+  color: #8f8f8f;
+}
+p:hover{
+  color: red;
+}
+#title {
+  background-color: #fd5068;
+  color: white;
+  text-align: left;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+              /* Navigation */
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+.navbar{
+padding: 0 0 4.5rem ;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Lite";
+  font-weight: 500;
+}
+     /* Download-Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+    /* Title-Image */
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* feature section */
+
+#features{
+  background-color: white;
+  padding: 7% 15%;
+  position:relative;
+  z-index: 1;
+}
+.feature-box{
+  padding: 5%;
+  line-height: 1.5;
+}
+.feature-box:hover{
+  color: red;
+}
+.icon{
+  color:#ef8172;
+    margin-bottom: 4%;
+}
+.icon:hover{
+  color:red;
+}
+
+     /* Testimonials */
+  #testimonials{
+    background-color: #ef8172;
+    color: #fff;
+  }
+  .carousel-item{
+      padding: 7% 15%;
+  }
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+         /* Press */
+#press{
+background-color: #ef8172;
+padding-bottom:50px;
+padding-top: 30px;
+}
+.logo{
+  width: 15%;
+  padding: 20px;
+}
+   /* Pricing */
+   #pricing{
+     padding:130px;
+   }
+   .pricing-column{
+     padding:3% 2%;
+   }
+
+       /* CTA */
+#cta{
+  background-color: #fd5068;
+  color: white;
+  padding: 7% 15% ;
+}
+
+     /* Footer */
+#footer{
+  background-color: white;
+  padding: 7% 15%;
+}
+.footer-icon-div{
+  padding-bottom: 5%;
+}
+.fooIcon{
+  padding: 0 2% 0;
+  color: #fd5068;
+}
+.fooIcon:hover{
+  color: black;
+}
+
+      /* MediaQuery */
+   @media (max-width:1028px) {
+    .title-img{
+      position: static;
+      transform: rotate(0);
+      padding-top: 60px;
+    }
+    #title{
+      text-align: center;
+    }
+   }
