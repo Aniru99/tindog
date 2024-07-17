@@ -4,7 +4,7 @@
 
 A responsible website based on the Bootstrap framework, the components used are Carousel, Card, Buttons, Navbar, etc. 
 
-Skills: Bootstrap · Cascading Style Sheets (CSS) · JavaScript · Python (Programming Language) · Git
+Skills: Bootstrap · Cascading Style Sheets (CSS) · JavaScript · HTML · Git
 
 
 # Web View
